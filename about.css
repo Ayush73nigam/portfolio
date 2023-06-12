@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(26, 26, 116);
+}
+body {
+    position: relative;
+    background: url(./backabout.webp) no-repeat;
+    z-index: -1;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.heading .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a {
+    padding-left: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.content{
+    padding: 25px;
+    width: 45vw;
+}
+.content img{
+    height: 100vh;
+}
+h1 span {
+    color: rgb(214, 172, 22);
+    font-weight: bold;
+}
+.title{
+    margin: 5px;
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+h1 {
+    color: white;
+}
+li{
+  font-size: 1.3em;
+  font-style: oblique;
+  line-height: 1.5em;
+  font-weight: bold;
+  list-style-type: disc;
+  color:white;
+ 
+}
+h2{
+    color:yellow;
+    padding: 25px;
+    font-size: 2em;
+    
+}
