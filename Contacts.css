@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(26, 26, 116);
+}
+.heading .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav a {
+    padding-left: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+h1 span {
+    color: rgb(214, 172, 22);
+    font-weight: bold;
+}
+h1 {
+    color: white;
+}
+body {
+    position: relative;
+    font-family: sans-serif;
+    background-color: cornsilk;
+}
+i {
+    color: rgb(26, 26, 116); 
+    font-size: 4em;
+}
+.icons a {
+    color: black;
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 24vh;
+    right: 60vh;
+}
+.icons div {
+    padding-bottom: 3em;
+}
+img {
+    position: absolute;
+    top: 24vh;
+    left:10vh;
+    height: 50vh;
+}
+.con-logo {
+    display: flex;
+    align-items: center;
+}
+.con-logo p {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 1em;
+}
+.email {
+    display: flex;
+    align-items: center;
+}
+.email a {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 1em;
+    font-style: oblique;
+}
+.icons .new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.new p {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 1em;    
+}
+p {
+    font-style: oblique;
+}
