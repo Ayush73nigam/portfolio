@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: url(./port.png) no-repeat;
+    z-index: -1;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(26, 26, 116);
+}
+.heading .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a {
+    padding-left: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.qty {
+    position: absolute;
+    top: 60vh;
+    left: 6vh;
+}
+h1 span {
+    color: rgb(214, 172, 22);
+    font-weight: bold;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    width: 28vw;
+    font-size: xx-large;
+    padding: 0.2em;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.image img {
+    position: absolute;
+    padding: 1em;
+    height: 50vh; 
+    left: 6vh;
+    top: 10vh;
+    border-radius: 75%;
+}
+.qty .qty1 {
+    color: rgb(251, 203, 32);
+}
+.qty .qty2 {
+    color: rgb(251, 203, 32);
+}
